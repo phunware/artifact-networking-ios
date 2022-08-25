@@ -1,0 +1,68 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhunwareNetworking
+import Foundation
+@_exported import PhunwareNetworking
+import Swift
+import _Concurrency
+public protocol NetworkClientProviding {
+  var clientIdentifier: String { get }
+  var networkInteractor: NetworkInteracting { get }
+  var dataDecoder: DataDecoding { get }
+  var failSafeCache: NetworkCaching { get }
+  func perform<Response>(urlRequest: URLRequest, responseType: Response.Type, errorResponseHandler: HTTPErrorResponseHandling, completionQueue: DispatchQueue, completion: @escaping (NetworkResult<Response>) -> Void) where Response : Swift.Decodable
+}
+public protocol HTTPErrorResponseHandling {
+  func handleError(urlResponse: HTTPURLResponse, data: Data?, dataDecoder: DataDecoding) -> Error?
+}
+public enum FailSafeCache {
+  case `default`
+  case custom(NetworkCaching)
+}
+public struct EmptyCodable : Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public class NetworkClient : NetworkClientProviding {
+  final public let clientIdentifier: String
+  final public let networkInteractor: NetworkInteracting
+  final public let dataDecoder: DataDecoding
+  final public let failSafeCache: NetworkCaching
+  public init(clientIdentifier: String, networkInteractor: NetworkInteracting = URLSession(configuration: .default), dataDecoder: DataDecoding = JSONDecoder(), failSafeCache: FailSafeCache = .default)
+  public func perform<Response>(urlRequest: URLRequest, responseType: Response.Type, errorResponseHandler: HTTPErrorResponseHandling, completionQueue: DispatchQueue, completion: @escaping (NetworkResult<Response>) -> Void) where Response : Swift.Decodable
+  @objc deinit
+}
+public protocol NetworkInteracting {
+  @discardableResult
+  func fetch(with urlRequest: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask?
+}
+extension URLSession : NetworkInteracting {
+  @discardableResult
+  public func fetch(with urlRequest: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask?
+}
+public protocol NetworkCaching {
+  func cachedResponse(for request: URLRequest) -> CachedURLResponse?
+  func storeCachedResponse(_ cachedResponse: CachedURLResponse, for request: URLRequest)
+  func removeCachedResponse(for request: URLRequest)
+}
+extension URLCache : NetworkCaching {
+}
+public protocol DataDecoding {
+  func decode<T>(_ type: T.Type, from data: Data) throws -> T where T : Swift.Decodable
+  func emptyPayloadString() -> String
+}
+extension JSONDecoder : DataDecoding {
+  public func emptyPayloadString() -> String
+}
+extension PropertyListDecoder : DataDecoding {
+  public func emptyPayloadString() -> String
+}
+public enum NetworkError : Error {
+  case internalInconsistency
+  case failedHTTPStatus(code: Int)
+  case unsupportedDecodableType
+}
+public enum NetworkResult<Response> {
+  case success(response: Response)
+  case failure(error: Error, cachedResponse: Response?)
+}
