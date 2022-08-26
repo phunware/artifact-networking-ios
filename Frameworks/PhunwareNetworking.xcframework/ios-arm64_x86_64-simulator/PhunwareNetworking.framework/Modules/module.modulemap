@@ -1,0 +1,11 @@
+framework module PhunwareNetworking {
+  umbrella header "PhunwareNetworking.h"
+
+  export *
+  module * { export * }
+}
+
+module PhunwareNetworking.Swift {
+    header "PhunwareNetworking-Swift.h"
+    requires objc
+}
