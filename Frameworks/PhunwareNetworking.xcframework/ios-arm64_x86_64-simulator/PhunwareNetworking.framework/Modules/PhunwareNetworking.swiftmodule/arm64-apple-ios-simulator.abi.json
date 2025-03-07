@@ -1,0 +1,2881 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareNetworking",
+    "printedName": "PhunwareNetworking",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkClientProviding",
+        "printedName": "NetworkClientProviding",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientIdentifier",
+            "printedName": "clientIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP16clientIdentifierSSvp",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP16clientIdentifierSSvp",
+            "moduleName": "PhunwareNetworking",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking22NetworkClientProvidingP16clientIdentifierSSvg",
+                "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP16clientIdentifierSSvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkClientProviding>",
+                "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkClientProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkInteractor",
+            "printedName": "networkInteractor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkInteracting",
+                "printedName": "any PhunwareNetworking.NetworkInteracting",
+                "usr": "s:18PhunwareNetworking18NetworkInteractingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP17networkInteractorAA0C11Interacting_pvp",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP17networkInteractorAA0C11Interacting_pvp",
+            "moduleName": "PhunwareNetworking",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkInteracting",
+                    "printedName": "any PhunwareNetworking.NetworkInteracting",
+                    "usr": "s:18PhunwareNetworking18NetworkInteractingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking22NetworkClientProvidingP17networkInteractorAA0C11Interacting_pvg",
+                "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP17networkInteractorAA0C11Interacting_pvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkClientProviding>",
+                "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkClientProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataDecoder",
+            "printedName": "dataDecoder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataDecoding",
+                "printedName": "any PhunwareNetworking.DataDecoding",
+                "usr": "s:18PhunwareNetworking12DataDecodingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP11dataDecoderAA12DataDecoding_pvp",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP11dataDecoderAA12DataDecoding_pvp",
+            "moduleName": "PhunwareNetworking",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataDecoding",
+                    "printedName": "any PhunwareNetworking.DataDecoding",
+                    "usr": "s:18PhunwareNetworking12DataDecodingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking22NetworkClientProvidingP11dataDecoderAA12DataDecoding_pvg",
+                "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP11dataDecoderAA12DataDecoding_pvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkClientProviding>",
+                "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkClientProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failSafeCache",
+            "printedName": "failSafeCache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkCaching",
+                "printedName": "any PhunwareNetworking.NetworkCaching",
+                "usr": "s:18PhunwareNetworking14NetworkCachingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP13failSafeCacheAA0C7Caching_pvp",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP13failSafeCacheAA0C7Caching_pvp",
+            "moduleName": "PhunwareNetworking",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkCaching",
+                    "printedName": "any PhunwareNetworking.NetworkCaching",
+                    "usr": "s:18PhunwareNetworking14NetworkCachingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking22NetworkClientProvidingP13failSafeCacheAA0C7Caching_pvg",
+                "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP13failSafeCacheAA0C7Caching_pvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkClientProviding>",
+                "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkClientProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "perform",
+            "printedName": "perform(urlRequest:responseType:errorResponseHandler:completionQueue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPErrorResponseHandling",
+                "printedName": "any PhunwareNetworking.HTTPErrorResponseHandling",
+                "usr": "s:18PhunwareNetworking25HTTPErrorResponseHandlingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.NetworkResult<τ_1_0>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkResult",
+                    "printedName": "PhunwareNetworking.NetworkResult<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:18PhunwareNetworking13NetworkResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP7perform10urlRequest12responseType20errorResponseHandler15completionQueue0N0y10Foundation10URLRequestV_qd__mAA09HTTPErrorL8Handling_pSo17OS_dispatch_queueCyAA0C6ResultOyqd__GctSeRd__lF",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP7perform10urlRequest12responseType20errorResponseHandler15completionQueue0N0y10Foundation10URLRequestV_qd__mAA09HTTPErrorL8Handling_pSo17OS_dispatch_queueCyAA0C6ResultOyqd__GctSeRd__lF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : PhunwareNetworking.NetworkClientProviding, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, Response where Self : PhunwareNetworking.NetworkClientProviding, Response : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareNetworking22NetworkClientProvidingP",
+        "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPErrorResponseHandling",
+        "printedName": "HTTPErrorResponseHandling",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleError",
+            "printedName": "handleError(urlResponse:data:dataDecoder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataDecoding",
+                "printedName": "any PhunwareNetworking.DataDecoding",
+                "usr": "s:18PhunwareNetworking12DataDecodingP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking25HTTPErrorResponseHandlingP11handleError03urlD04data0I7Decoders0G0_pSgSo17NSHTTPURLResponseC_10Foundation4DataVSgAA0M8Decoding_ptF",
+            "mangledName": "$s18PhunwareNetworking25HTTPErrorResponseHandlingP11handleError03urlD04data0I7Decoders0G0_pSgSo17NSHTTPURLResponseC_10Foundation4DataVSgAA0M8Decoding_ptF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.HTTPErrorResponseHandling>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.HTTPErrorResponseHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareNetworking25HTTPErrorResponseHandlingP",
+        "mangledName": "$s18PhunwareNetworking25HTTPErrorResponseHandlingP",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FailSafeCache",
+        "printedName": "FailSafeCache",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.FailSafeCache.Type) -> PhunwareNetworking.FailSafeCache",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailSafeCache",
+                    "printedName": "PhunwareNetworking.FailSafeCache",
+                    "usr": "s:18PhunwareNetworking13FailSafeCacheO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.FailSafeCache.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailSafeCache",
+                        "printedName": "PhunwareNetworking.FailSafeCache",
+                        "usr": "s:18PhunwareNetworking13FailSafeCacheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking13FailSafeCacheO7defaultyA2CmF",
+            "mangledName": "$s18PhunwareNetworking13FailSafeCacheO7defaultyA2CmF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.FailSafeCache.Type) -> (any PhunwareNetworking.NetworkCaching) -> PhunwareNetworking.FailSafeCache",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any PhunwareNetworking.NetworkCaching) -> PhunwareNetworking.FailSafeCache",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailSafeCache",
+                        "printedName": "PhunwareNetworking.FailSafeCache",
+                        "usr": "s:18PhunwareNetworking13FailSafeCacheO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkCaching",
+                        "printedName": "any PhunwareNetworking.NetworkCaching",
+                        "usr": "s:18PhunwareNetworking14NetworkCachingP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.FailSafeCache.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailSafeCache",
+                        "printedName": "PhunwareNetworking.FailSafeCache",
+                        "usr": "s:18PhunwareNetworking13FailSafeCacheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking13FailSafeCacheO6customyAcA14NetworkCaching_pcACmF",
+            "mangledName": "$s18PhunwareNetworking13FailSafeCacheO6customyAcA14NetworkCaching_pcACmF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PhunwareNetworking13FailSafeCacheO",
+        "mangledName": "$s18PhunwareNetworking13FailSafeCacheO",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyCodable",
+        "printedName": "EmptyCodable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyCodable",
+                "printedName": "PhunwareNetworking.EmptyCodable",
+                "usr": "s:18PhunwareNetworking12EmptyCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareNetworking12EmptyCodableV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PhunwareNetworking12EmptyCodableV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PhunwareNetworking",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking12EmptyCodableV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PhunwareNetworking12EmptyCodableV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PhunwareNetworking",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PhunwareNetworking12EmptyCodableV",
+        "mangledName": "$s18PhunwareNetworking12EmptyCodableV",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkClient",
+        "printedName": "NetworkClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientIdentifier",
+            "printedName": "clientIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking13NetworkClientC16clientIdentifierSSvp",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC16clientIdentifierSSvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking13NetworkClientC16clientIdentifierSSvg",
+                "mangledName": "$s18PhunwareNetworking13NetworkClientC16clientIdentifierSSvg",
+                "moduleName": "PhunwareNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkInteractor",
+            "printedName": "networkInteractor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkInteracting",
+                "printedName": "any PhunwareNetworking.NetworkInteracting",
+                "usr": "s:18PhunwareNetworking18NetworkInteractingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking13NetworkClientC17networkInteractorAA0C11Interacting_pvp",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC17networkInteractorAA0C11Interacting_pvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkInteracting",
+                    "printedName": "any PhunwareNetworking.NetworkInteracting",
+                    "usr": "s:18PhunwareNetworking18NetworkInteractingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking13NetworkClientC17networkInteractorAA0C11Interacting_pvg",
+                "mangledName": "$s18PhunwareNetworking13NetworkClientC17networkInteractorAA0C11Interacting_pvg",
+                "moduleName": "PhunwareNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataDecoder",
+            "printedName": "dataDecoder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataDecoding",
+                "printedName": "any PhunwareNetworking.DataDecoding",
+                "usr": "s:18PhunwareNetworking12DataDecodingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking13NetworkClientC11dataDecoderAA12DataDecoding_pvp",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC11dataDecoderAA12DataDecoding_pvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataDecoding",
+                    "printedName": "any PhunwareNetworking.DataDecoding",
+                    "usr": "s:18PhunwareNetworking12DataDecodingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking13NetworkClientC11dataDecoderAA12DataDecoding_pvg",
+                "mangledName": "$s18PhunwareNetworking13NetworkClientC11dataDecoderAA12DataDecoding_pvg",
+                "moduleName": "PhunwareNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failSafeCache",
+            "printedName": "failSafeCache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkCaching",
+                "printedName": "any PhunwareNetworking.NetworkCaching",
+                "usr": "s:18PhunwareNetworking14NetworkCachingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking13NetworkClientC13failSafeCacheAA0C7Caching_pvp",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC13failSafeCacheAA0C7Caching_pvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkCaching",
+                    "printedName": "any PhunwareNetworking.NetworkCaching",
+                    "usr": "s:18PhunwareNetworking14NetworkCachingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking13NetworkClientC13failSafeCacheAA0C7Caching_pvg",
+                "mangledName": "$s18PhunwareNetworking13NetworkClientC13failSafeCacheAA0C7Caching_pvg",
+                "moduleName": "PhunwareNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientIdentifier:networkInteractor:dataDecoder:failSafeCache:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkClient",
+                "printedName": "PhunwareNetworking.NetworkClient",
+                "usr": "s:18PhunwareNetworking13NetworkClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkInteracting",
+                "printedName": "any PhunwareNetworking.NetworkInteracting",
+                "hasDefaultArg": true,
+                "usr": "s:18PhunwareNetworking18NetworkInteractingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataDecoding",
+                "printedName": "any PhunwareNetworking.DataDecoding",
+                "hasDefaultArg": true,
+                "usr": "s:18PhunwareNetworking12DataDecodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FailSafeCache",
+                "printedName": "PhunwareNetworking.FailSafeCache",
+                "hasDefaultArg": true,
+                "usr": "s:18PhunwareNetworking13FailSafeCacheO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareNetworking13NetworkClientC16clientIdentifier17networkInteractor11dataDecoder13failSafeCacheACSS_AA0C11Interacting_pAA12DataDecoding_pAA04FaillM0Otcfc",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC16clientIdentifier17networkInteractor11dataDecoder13failSafeCacheACSS_AA0C11Interacting_pAA12DataDecoding_pAA04FaillM0Otcfc",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "perform",
+            "printedName": "perform(urlRequest:responseType:errorResponseHandler:completionQueue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPErrorResponseHandling",
+                "printedName": "any PhunwareNetworking.HTTPErrorResponseHandling",
+                "usr": "s:18PhunwareNetworking25HTTPErrorResponseHandlingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.NetworkResult<τ_0_0>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkResult",
+                    "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18PhunwareNetworking13NetworkResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking13NetworkClientC7perform10urlRequest12responseType20errorResponseHandler15completionQueue0M0y10Foundation10URLRequestV_xmAA09HTTPErrorK8Handling_pSo17OS_dispatch_queueCyAA0C6ResultOyxGctSeRzlF",
+            "mangledName": "$s18PhunwareNetworking13NetworkClientC7perform10urlRequest12responseType20errorResponseHandler15completionQueue0M0y10Foundation10URLRequestV_xmAA09HTTPErrorK8Handling_pSo17OS_dispatch_queueCyAA0C6ResultOyxGctSeRzlF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Response where Response : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18PhunwareNetworking13NetworkClientC",
+        "mangledName": "$s18PhunwareNetworking13NetworkClientC",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkClientProviding",
+            "printedName": "NetworkClientProviding",
+            "usr": "s:18PhunwareNetworking22NetworkClientProvidingP",
+            "mangledName": "$s18PhunwareNetworking22NetworkClientProvidingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkResponse",
+        "printedName": "NetworkResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking15NetworkResponseV4dataxvp",
+            "mangledName": "$s18PhunwareNetworking15NetworkResponseV4dataxvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking15NetworkResponseV4dataxvg",
+                "mangledName": "$s18PhunwareNetworking15NetworkResponseV4dataxvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<ResponseData>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlResponse",
+            "printedName": "urlResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLResponse",
+                "printedName": "Foundation.URLResponse",
+                "usr": "c:objc(cs)NSURLResponse"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking15NetworkResponseV03urlD0So13NSURLResponseCvp",
+            "mangledName": "$s18PhunwareNetworking15NetworkResponseV03urlD0So13NSURLResponseCvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking15NetworkResponseV03urlD0So13NSURLResponseCvg",
+                "mangledName": "$s18PhunwareNetworking15NetworkResponseV03urlD0So13NSURLResponseCvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<ResponseData>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking15NetworkResponseV10statusCodeSiSgvp",
+            "mangledName": "$s18PhunwareNetworking15NetworkResponseV10statusCodeSiSgvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking15NetworkResponseV10statusCodeSiSgvg",
+                "mangledName": "$s18PhunwareNetworking15NetworkResponseV10statusCodeSiSgvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<ResponseData>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:urlResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkResponse",
+                "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PhunwareNetworking15NetworkResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLResponse",
+                "printedName": "Foundation.URLResponse",
+                "usr": "c:objc(cs)NSURLResponse"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareNetworking15NetworkResponseV4data03urlD0ACyxGx_So13NSURLResponseCtcfc",
+            "mangledName": "$s18PhunwareNetworking15NetworkResponseV4data03urlD0ACyxGx_So13NSURLResponseCtcfc",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<ResponseData>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PhunwareNetworking15NetworkResponseV",
+        "mangledName": "$s18PhunwareNetworking15NetworkResponseV",
+        "moduleName": "PhunwareNetworking",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<ResponseData>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkInteracting",
+        "printedName": "NetworkInteracting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLSessionDataTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionDataTask",
+                    "printedName": "Foundation.URLSessionDataTask",
+                    "usr": "c:objc(cs)NSURLSessionDataTask"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking18NetworkInteractingP5fetch4with17completionHandlerSo20NSURLSessionDataTaskCSg10Foundation10URLRequestV_yAJ0J0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s18PhunwareNetworking18NetworkInteractingP5fetch4with17completionHandlerSo20NSURLSessionDataTaskCSg10Foundation10URLRequestV_yAJ0J0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkInteracting>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkInteracting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareNetworking18NetworkInteractingP",
+        "mangledName": "$s18PhunwareNetworking18NetworkInteractingP",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkCaching",
+        "printedName": "NetworkCaching",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cachedResponse",
+            "printedName": "cachedResponse(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.CachedURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CachedURLResponse",
+                    "printedName": "Foundation.CachedURLResponse",
+                    "usr": "c:objc(cs)NSCachedURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking14NetworkCachingP14cachedResponse3forSo19NSCachedURLResponseCSg10Foundation10URLRequestV_tF",
+            "mangledName": "$s18PhunwareNetworking14NetworkCachingP14cachedResponse3forSo19NSCachedURLResponseCSg10Foundation10URLRequestV_tF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkCaching>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkCaching>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeCachedResponse",
+            "printedName": "storeCachedResponse(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CachedURLResponse",
+                "printedName": "Foundation.CachedURLResponse",
+                "usr": "c:objc(cs)NSCachedURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking14NetworkCachingP19storeCachedResponse_3forySo19NSCachedURLResponseC_10Foundation10URLRequestVtF",
+            "mangledName": "$s18PhunwareNetworking14NetworkCachingP19storeCachedResponse_3forySo19NSCachedURLResponseC_10Foundation10URLRequestVtF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkCaching>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkCaching>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCachedResponse",
+            "printedName": "removeCachedResponse(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking14NetworkCachingP20removeCachedResponse3fory10Foundation10URLRequestV_tF",
+            "mangledName": "$s18PhunwareNetworking14NetworkCachingP20removeCachedResponse3fory10Foundation10URLRequestV_tF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.NetworkCaching>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.NetworkCaching>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareNetworking14NetworkCachingP",
+        "mangledName": "$s18PhunwareNetworking14NetworkCachingP",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataDecoding",
+        "printedName": "DataDecoding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking12DataDecodingP6decode_4fromqd__qd__m_10Foundation0C0VtKSeRd__lF",
+            "mangledName": "$s18PhunwareNetworking12DataDecodingP6decode_4fromqd__qd__m_10Foundation0C0VtKSeRd__lF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : PhunwareNetworking.DataDecoding, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : PhunwareNetworking.DataDecoding, T : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emptyPayloadString",
+            "printedName": "emptyPayloadString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareNetworking12DataDecodingP18emptyPayloadStringSSyF",
+            "mangledName": "$s18PhunwareNetworking12DataDecodingP18emptyPayloadStringSSyF",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareNetworking.DataDecoding>",
+            "sugared_genericSig": "<Self where Self : PhunwareNetworking.DataDecoding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareNetworking12DataDecodingP",
+        "mangledName": "$s18PhunwareNetworking12DataDecodingP",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalInconsistency",
+            "printedName": "internalInconsistency",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.NetworkError.Type) -> (Swift.String) -> PhunwareNetworking.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PhunwareNetworking.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "PhunwareNetworking.NetworkError",
+                        "usr": "s:18PhunwareNetworking12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "PhunwareNetworking.NetworkError",
+                        "usr": "s:18PhunwareNetworking12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking12NetworkErrorO21internalInconsistencyyACSS_tcACmF",
+            "mangledName": "$s18PhunwareNetworking12NetworkErrorO21internalInconsistencyyACSS_tcACmF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedHTTPStatus",
+            "printedName": "failedHTTPStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareNetworking.NetworkError.Type) -> (Swift.Int) -> PhunwareNetworking.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PhunwareNetworking.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "PhunwareNetworking.NetworkError",
+                        "usr": "s:18PhunwareNetworking12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "PhunwareNetworking.NetworkError",
+                        "usr": "s:18PhunwareNetworking12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking12NetworkErrorO16failedHTTPStatusyACSi_tcACmF",
+            "mangledName": "$s18PhunwareNetworking12NetworkErrorO16failedHTTPStatusyACSi_tcACmF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PhunwareNetworking12NetworkErrorO",
+        "mangledName": "$s18PhunwareNetworking12NetworkErrorO",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkFailure",
+        "printedName": "NetworkFailure",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "underlyingError",
+            "printedName": "underlyingError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking14NetworkFailureV15underlyingErrors0F0_pvp",
+            "mangledName": "$s18PhunwareNetworking14NetworkFailureV15underlyingErrors0F0_pvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking14NetworkFailureV15underlyingErrors0F0_pvg",
+                "mangledName": "$s18PhunwareNetworking14NetworkFailureV15underlyingErrors0F0_pvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Response>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlResponse",
+            "printedName": "urlResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking14NetworkFailureV11urlResponseSo13NSURLResponseCSgvp",
+            "mangledName": "$s18PhunwareNetworking14NetworkFailureV11urlResponseSo13NSURLResponseCSgvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLResponse",
+                        "printedName": "Foundation.URLResponse",
+                        "usr": "c:objc(cs)NSURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking14NetworkFailureV11urlResponseSo13NSURLResponseCSgvg",
+                "mangledName": "$s18PhunwareNetworking14NetworkFailureV11urlResponseSo13NSURLResponseCSgvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Response>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cachedResponse",
+            "printedName": "cachedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkResponse",
+                    "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18PhunwareNetworking15NetworkResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking14NetworkFailureV14cachedResponseAA0cF0VyxGSgvp",
+            "mangledName": "$s18PhunwareNetworking14NetworkFailureV14cachedResponseAA0cF0VyxGSgvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResponse",
+                        "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18PhunwareNetworking15NetworkResponseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking14NetworkFailureV14cachedResponseAA0cF0VyxGSgvg",
+                "mangledName": "$s18PhunwareNetworking14NetworkFailureV14cachedResponseAA0cF0VyxGSgvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Response>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(underlyingError:urlResponse:cachedResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkFailure",
+                "printedName": "PhunwareNetworking.NetworkFailure<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PhunwareNetworking14NetworkFailureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkResponse",
+                    "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18PhunwareNetworking15NetworkResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareNetworking14NetworkFailureV15underlyingError11urlResponse06cachedH0ACyxGs0F0_p_So13NSURLResponseCSgAA0cH0VyxGSgtcfc",
+            "mangledName": "$s18PhunwareNetworking14NetworkFailureV15underlyingError11urlResponse06cachedH0ACyxGs0F0_p_So13NSURLResponseCSgAA0cH0VyxGSgtcfc",
+            "moduleName": "PhunwareNetworking",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Response>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PhunwareNetworking14NetworkFailureV",
+        "mangledName": "$s18PhunwareNetworking14NetworkFailureV",
+        "moduleName": "PhunwareNetworking",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Response>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkResult",
+        "printedName": "NetworkResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (PhunwareNetworking.NetworkResult<τ_0_0>.Type) -> (PhunwareNetworking.NetworkResponse<τ_0_0>) -> PhunwareNetworking.NetworkResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareNetworking.NetworkResponse<τ_0_0>) -> PhunwareNetworking.NetworkResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResult",
+                        "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18PhunwareNetworking13NetworkResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(response: PhunwareNetworking.NetworkResponse<τ_0_0>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkResponse",
+                            "printedName": "PhunwareNetworking.NetworkResponse<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:18PhunwareNetworking15NetworkResponseV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResult",
+                        "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18PhunwareNetworking13NetworkResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking13NetworkResultO7successyACyxGAA0C8ResponseVyxG_tcAEmlF",
+            "mangledName": "$s18PhunwareNetworking13NetworkResultO7successyACyxGAA0C8ResponseVyxG_tcAEmlF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (PhunwareNetworking.NetworkResult<τ_0_0>.Type) -> (PhunwareNetworking.NetworkFailure<τ_0_0>) -> PhunwareNetworking.NetworkResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareNetworking.NetworkFailure<τ_0_0>) -> PhunwareNetworking.NetworkResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResult",
+                        "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18PhunwareNetworking13NetworkResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: PhunwareNetworking.NetworkFailure<τ_0_0>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkFailure",
+                            "printedName": "PhunwareNetworking.NetworkFailure<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:18PhunwareNetworking14NetworkFailureV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResult",
+                        "printedName": "PhunwareNetworking.NetworkResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18PhunwareNetworking13NetworkResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareNetworking13NetworkResultO7failureyACyxGAA0C7FailureVyxG_tcAEmlF",
+            "mangledName": "$s18PhunwareNetworking13NetworkResultO7failureyACyxGAA0C7FailureVyxG_tcAEmlF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareNetworking13NetworkResultO10statusCodeSiSgvp",
+            "mangledName": "$s18PhunwareNetworking13NetworkResultO10statusCodeSiSgvp",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareNetworking13NetworkResultO10statusCodeSiSgvg",
+                "mangledName": "$s18PhunwareNetworking13NetworkResultO10statusCodeSiSgvg",
+                "moduleName": "PhunwareNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Response>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PhunwareNetworking13NetworkResultO",
+        "mangledName": "$s18PhunwareNetworking13NetworkResultO",
+        "moduleName": "PhunwareNetworking",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Response>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLSessionDataTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionDataTask",
+                    "printedName": "Foundation.URLSessionDataTask",
+                    "usr": "c:objc(cs)NSURLSessionDataTask"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12NSURLSessionC18PhunwareNetworkingE5fetch4with17completionHandlerSo0A8DataTaskCSg10Foundation10URLRequestV_yAJ0H0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$sSo12NSURLSessionC18PhunwareNetworkingE5fetch4with17completionHandlerSo0A8DataTaskCSg10Foundation10URLRequestV_yAJ0H0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkInteracting",
+            "printedName": "NetworkInteracting",
+            "usr": "s:18PhunwareNetworking18NetworkInteractingP",
+            "mangledName": "$s18PhunwareNetworking18NetworkInteractingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLCache",
+        "printedName": "URLCache",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLCache",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "NSURLCache",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkCaching",
+            "printedName": "NetworkCaching",
+            "usr": "s:18PhunwareNetworking14NetworkCachingP",
+            "mangledName": "$s18PhunwareNetworking14NetworkCachingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONDecoder",
+        "printedName": "JSONDecoder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "emptyPayloadString",
+            "printedName": "emptyPayloadString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation11JSONDecoderC18PhunwareNetworkingE18emptyPayloadStringSSyF",
+            "mangledName": "$s10Foundation11JSONDecoderC18PhunwareNetworkingE18emptyPayloadStringSSyF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10Foundation11JSONDecoderC",
+        "mangledName": "$s10Foundation11JSONDecoderC",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataDecoding",
+            "printedName": "DataDecoding",
+            "usr": "s:18PhunwareNetworking12DataDecodingP",
+            "mangledName": "$s18PhunwareNetworking12DataDecodingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TopLevelDecoder",
+            "printedName": "TopLevelDecoder",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Input",
+                "printedName": "Input",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine15TopLevelDecoderP",
+            "mangledName": "$s7Combine15TopLevelDecoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PropertyListDecoder",
+        "printedName": "PropertyListDecoder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "emptyPayloadString",
+            "printedName": "emptyPayloadString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation19PropertyListDecoderC18PhunwareNetworkingE18emptyPayloadStringSSyF",
+            "mangledName": "$s10Foundation19PropertyListDecoderC18PhunwareNetworkingE18emptyPayloadStringSSyF",
+            "moduleName": "PhunwareNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10Foundation19PropertyListDecoderC",
+        "mangledName": "$s10Foundation19PropertyListDecoderC",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataDecoding",
+            "printedName": "DataDecoding",
+            "usr": "s:18PhunwareNetworking12DataDecodingP",
+            "mangledName": "$s18PhunwareNetworking12DataDecodingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TopLevelDecoder",
+            "printedName": "TopLevelDecoder",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Input",
+                "printedName": "Input",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine15TopLevelDecoderP",
+            "mangledName": "$s7Combine15TopLevelDecoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-networking-external-ios\/PhunwareNetworking\/DataDecoding.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-networking-external-ios\/PhunwareNetworking\/DataDecoding.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 24,
+      "value": "\"<plist><dict\/><\/plist>\""
+    }
+  ]
+}
