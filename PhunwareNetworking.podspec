@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                = 'PhunwareNetworking'
-  spec.version             = '1.3.1'
+  spec.version             = '1.3.2'
   spec.summary             = 'A library currently being used by Phunware internally to provide networking functionalities in our own SDKs and Modules.'
   spec.homepage            = 'https://www.phunware.com'
   spec.license             = { :type => 'Copyright', :text => 'Copyright 2009-present Phunware, Inc. All rights reserved.' }
