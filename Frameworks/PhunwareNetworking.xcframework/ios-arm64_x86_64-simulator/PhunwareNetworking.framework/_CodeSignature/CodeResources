@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PhunwareNetworking-Swift.h</key>
 		<data>
-		EHYHY0Yc2VFj3togwjI1TzTWu0Y=
+		OnLAoqFZpZiyY0LDiVmv6RIVOYU=
 		</data>
 		<key>Headers/PhunwareNetworking.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y05tDuGa3dPDHOFrVQQg372m5Ug=
+		uJxQcv0JKGi2yRRtxQ7tiBV8lFo=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mZACAT9+44tQwcev4fYRE2+cgZQ=
+		Y/RXLxhs6r5XTDsDP7HY3WG0//8=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7hMgC4VGKxY1JHHYQhfKmxX1KSU=
+		rL6S4aPS6D+JcDXsXutMO5WIJHI=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kQPD/4AAoAL7hIW8m64AGq3hRbc=
+		sLoxMRFhmTQBl1YRdteG7EdTwYw=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7hMgC4VGKxY1JHHYQhfKmxX1KSU=
+		rL6S4aPS6D+JcDXsXutMO5WIJHI=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RITXknA+uj936fDb0XSBbh8zh2k=
+		vy6By4jhgYS1E42oCFKwCUy4f4c=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mZACAT9+44tQwcev4fYRE2+cgZQ=
+		Y/RXLxhs6r5XTDsDP7HY3WG0//8=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gJQCAvBJWPfk2pVJE/b3rEHHVnY=
+		8sgOA0Mje4sSU0kKVxqbd3sZ/5M=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cwY8DvupFade5/UIspZyNIiHhbQ=
+		DtEvA2HiPSmSVIOJOllq9xpE9jw=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gJQCAvBJWPfk2pVJE/b3rEHHVnY=
+		8sgOA0Mje4sSU0kKVxqbd3sZ/5M=
 		</data>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wzT9VspAiy2XYcAx6p9QT4NRpCo=
+		mHgflTX66IRsOEw/lMpQMZbq2AA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZIVxgy6gxuchdQrO4NbAs9N219bBNwODzQZDgmbQkfQ=
+			0qvnx6iJ3FYBiCuEIAnVddSVfI7zrp2AxiRsMUpX0fE=
 			</data>
 		</dict>
 		<key>Headers/PhunwareNetworking.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRaXUAu94dCF5vferilFSc49SkHgPOWT+zwhEp6mVOQ=
+			tgkHZ6q6WVjocFvqdRqeoxt36i87eJuCbYUcSwM9sXg=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5qfKr3ktIPy+mbCYo+mEaCdRdPtF6wxpXkqR6o80sSA=
+			Vt7dr+IZMXzUCzzdtJlwL5FsCBO6pa6B5ubp9rCeCe8=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITLo4wNgVz9ICQd5IUdSn82scXIKUcY4bHceap/YU4k=
+			EgLHyavsXpD/e6MCuPeg6v8B4WpHNm9eYFs9qIkBvyg=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5qfKr3ktIPy+mbCYo+mEaCdRdPtF6wxpXkqR6o80sSA=
+			Vt7dr+IZMXzUCzzdtJlwL5FsCBO6pa6B5ubp9rCeCe8=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5skYfggIJNX422mMOZ/BJJm8af2661tvYic5k4MLi6Y=
+			ihX4L2kCOTzl8dpKa2/BjQ7GLUF6YBAEGYuhOZirO9w=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRaXUAu94dCF5vferilFSc49SkHgPOWT+zwhEp6mVOQ=
+			tgkHZ6q6WVjocFvqdRqeoxt36i87eJuCbYUcSwM9sXg=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmHiasZ421uozCSz757bU9E1CSe7kYNOu36zOtmu9w4=
+			Ym6yCHnddDgBcysQUoLehi4FAhlZjApzQgsR8U90yvI=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXPJpVsdpA8BcoiQOna25yiEGYy4ixd6Of+IZE18bGA=
+			dmdBCz9Q4iJEDRVJJZP36xnPVzNfqmEZgxPv6+/aHHg=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmHiasZ421uozCSz757bU9E1CSe7kYNOu36zOtmu9w4=
+			Ym6yCHnddDgBcysQUoLehi4FAhlZjApzQgsR8U90yvI=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kPh68aigRsmHPezlbIj67ofZVkB311KKCP44XccrF3c=
+			F60qz1IduRsmvYn4Wq8j23hEMuXSG6Cg/BZZtPPo+sQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

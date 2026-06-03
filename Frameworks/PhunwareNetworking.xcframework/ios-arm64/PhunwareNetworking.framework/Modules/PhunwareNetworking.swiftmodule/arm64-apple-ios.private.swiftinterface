@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareNetworking
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PhunwareNetworking
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Foundation
 @_exported import PhunwareNetworking
 import Swift
@@ -16,7 +16,9 @@ public protocol NetworkClientProviding {
   func perform<Response>(urlRequest: URLRequest, responseType: Response.Type, errorResponseHandler: HTTPErrorResponseHandling, completionQueue: DispatchQueue, completion: @escaping (NetworkResult<Response>) -> Void) where Response : Swift.Decodable
 }
 public protocol HTTPErrorResponseHandling {
+  #if compiler(>=5.3) && $NonescapableTypes
   func handleError(urlResponse: HTTPURLResponse, data: Data?, dataDecoder: DataDecoding) -> Error?
+  #endif
 }
 public enum FailSafeCache {
   case `default`
@@ -38,21 +40,29 @@ public class NetworkClient : NetworkClientProviding {
 public struct NetworkResponse<ResponseData> {
   public let data: ResponseData
   public let urlResponse: URLResponse
+  #if compiler(>=5.3) && $NonescapableTypes
   public var statusCode: Int? {
     get
   }
+  #endif
   public init(data: ResponseData, urlResponse: URLResponse)
 }
 public protocol NetworkInteracting {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   func fetch(with urlRequest: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask?
+  #endif
 }
 extension URLSession : NetworkInteracting {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func fetch(with urlRequest: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask?
+  #endif
 }
 public protocol NetworkCaching {
+  #if compiler(>=5.3) && $NonescapableTypes
   func cachedResponse(for request: URLRequest) -> CachedURLResponse?
+  #endif
   func storeCachedResponse(_ cachedResponse: CachedURLResponse, for request: URLRequest)
   func removeCachedResponse(for request: URLRequest)
 }
@@ -76,12 +86,16 @@ public struct NetworkFailure<Response> : Error {
   public let underlyingError: Error
   public let urlResponse: URLResponse?
   public let cachedResponse: NetworkResponse<Response>?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(underlyingError: Error, urlResponse: URLResponse?, cachedResponse: NetworkResponse<Response>?)
+  #endif
 }
 public enum NetworkResult<Response> {
   case success(response: NetworkResponse<Response>)
   case failure(error: NetworkFailure<Response>)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var statusCode: Int? {
     get
   }
+  #endif
 }
